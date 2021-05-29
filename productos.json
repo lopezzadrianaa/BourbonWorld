@@ -1,0 +1,15 @@
+[
+    { "id": 1, "nombre": "Jack Daniel's", "precio": 4500, "imagen": "01.png" },
+    {"id": 2,"nombre": "Jack Daniel's Honey", "precio": 4300, "imagen": "02.png"},
+    {"id": 3, "nombre": "Jack Daniel's Select","precio": 22000, "imagen": "03.png"},
+    { "id": 4, "nombre": "Bulleit", "precio": 3680, "imagen": "04.png" },
+    { "id": 5, "nombre": "Wild Turkey 81", "precio": 3320, "imagen": "05.png" },
+    { "id": 6, "nombre": "Wild Turkey", "precio": 2600, "imagen": "06.png" },
+    { "id": 7, "nombre": "Jim Beam", "precio": 1900, "imagen": "07.png" },
+    { "id": 8, "nombre": "Jim Beam Honey", "precio": 1984, "imagen": "08.png" },
+    { "id": 9, "nombre": "Jim Beam Black", "precio": 3579, "imagen": "09.png" },
+    { "id": 10, "nombre": "Evan Williams", "precio": 3120, "imagen": "10.png" },
+    { "id": 11, "nombre": "Maker's Mark", "precio": 4800, "imagen": "11.png" },
+    { "id": 12, "nombre": "Buffalo Trace", "precio": 4830, "imagen": "12.png" }
+  ]
+  

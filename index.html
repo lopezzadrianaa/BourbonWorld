@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bourbon World | Productos</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    
+</head>
+<body>
+    
+<!-- HEADER -->
+    <header>
+        <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+        <button class="btn-carrito">
+          <i class="fas fa-shopping-cart carrito-icono"><span id="numeroCarrito">0</span></i>
+        </button>
+    </header>
+
+
+<!-- MODAL -->
+<div class="modal-container">
+  <div class="btn-cerrar">X</div>
+  <div class="modal-container-scroll">
+      <div class="container">
+        <table class="table align-middle" id="lista-carrito"> 
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Producto</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Subtotal</th>
+              <th scope="col"></th>
+            </tr>
+          </thead> 
+          <tbody class="mostrarCarrito" id="carrito-view"> 
+            <!-- Acá se imprime el html -->
+          </tbody> 
+        </table>
+            <!-- Total -->
+            <div class="precioTotal col-md-12">
+              <div class="precioView">
+                <span>$</span><h2>0</h2>
+              </div>
+            </div>
+            <!-- Botones vaciar carro y finalizar compra -->     
+            <div class="row">
+              <div class="botones-abajo">
+                <a id="vaciar-carrito" class="col-md-3 col-12 col-xs-12 vaciar-carrito">Vaciar carrito <i class="fas fa-trash-alt"></i></a>
+                <button type="button" class=" col-md-3 col-12 pagar-btn" id="pagar-btn">Pagar <i class="fas fa-check"></i></button>
+                <a href="compra.html" id="finalizar-compra" class="col-md-3 col-12 col-xs-12 finalizar-compra">Datos de envío<i class="fas fa-truck"></i></a>
+              </div>  
+            </div> 
+      </div>
+    </div>
+</div>
+
+
+<!-- PRODUCTOS -->    
+<section class="productos">
+  <div class="container" >
+    <div class="row" id="productos" > 
+        <!-- Acá van las cards -->
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer><p>Desarrollo web: Adriana López</p></footer>
+
+   
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/7355c63a6f.js" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  <script src="js/modal.js"></script>
+
+  
+ 
+
+
+
+
+</body>
+</html>
